@@ -18,18 +18,36 @@
 //     }
 // }
 
-for (let i = 1; i < 101; i++){
-    if(i%3=== 0){
-        console.log("fizz");
-    }
-    if(i%5=== 0){
-        console.log("buzz");
-    }
-    if(i%3=== 0 && i%5=== 0){
-        console.log("fizzbuzz");
-    }
-    else
-    console.log(i);
-}
-    
+// for (let i = 1; i < 101; i++){
+//     if(i%3=== 0){
+//         console.log("fizz");
+//     }
+//     if(i%5=== 0){
+//         console.log("buzz");
+//     }
+//     if(i%3=== 0 && i%5=== 0){
+//         console.log("fizzbuzz");
+//     }
+//     else
+//     console.log(i);
+// }
 
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
+
+shahzad.splice(0 , 1 , 'Gameboy');
+  
+daniel.splice(1, 1, (daniel[1]+1));
+
+ryan.splice(2, 1, 'Gotham City');
+
+reuben.pop();
+reuben.push("Chicago");
+
+jim.splice(2, 1, 'Scranton', 'Berlin', 'Hong Kong')
+jim.splice(2, 1);
+
+console.log(jim);
