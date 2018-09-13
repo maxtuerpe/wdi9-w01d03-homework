@@ -47,7 +47,20 @@ ryan.splice(2, 1, 'Gotham City');
 reuben.pop();
 reuben.push("Chicago");
 
-jim.splice(2, 1, 'Scranton', 'Berlin', 'Hong Kong')
+jim.splice(2, 1, 'Scranton', 'Berlin', 'Hong Kong');
 jim.splice(2, 1);
 
-console.log(jim);
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+for (let i = 0; i < ninjaTurtles.length; i++){
+    console.log(ninjaTurtles[i].toUpperCase());
+}
+
+
+for (let i = 0; i < ninjaTurtles.length; i++){
+    const chars = ninjaTurtles[i].toLowerCase().split('');
+    for(let x = 0; x < chars.length; x+=2){
+        chars[x] = chars[x].toUpperCase();
+        }
+    console.log(chars.join(''));
+}
