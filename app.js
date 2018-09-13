@@ -97,10 +97,19 @@ const kristynsCloset = [
     ]
   ];
 
-const kristynsShoe = kristynsCloset.splice(0, 1);
-thomsCloset[2].push(kristynsShoe);
+// const kristynsShoe = kristynsCloset.splice(0, 1);
+// thomsCloset[2].push(kristynsShoe);
 
 
-console.log('Kristen will ne wearing her ' + kristynsCloset[1] + ', ' + kristynsCloset[3] + ', and ' + kristynsCloset[4] + ' today.')
-console.log('Thom will ne wearing his ' + thomsCloset[0][2] + ', ' + thomsCloset[1][2] + ', and ' + thomsCloset[2][1] + ' today.')
-console.log('Thom will ne wearing his ' + thomsCloset[0][0] + ', ' + thomsCloset[1][0] + ', and ' + thomsCloset[2][2] + ' today.')
+// console.log('Kristen will ne wearing her ' + kristynsCloset[1] + ', ' + kristynsCloset[3] + ', and ' + kristynsCloset[4] + ' today.')
+// console.log('Thom will ne wearing his ' + thomsCloset[0][2] + ', ' + thomsCloset[1][2] + ', and ' + thomsCloset[2][1] + ' today.')
+// console.log('Thom will ne wearing his ' + thomsCloset[0][0] + ', ' + thomsCloset[1][0] + ', and ' + thomsCloset[2][2] + ' today.')
+
+
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+for (let i = 0; i < thomsCloset.length; i++){
+    console.log(thomsCloset[i]);
+}
